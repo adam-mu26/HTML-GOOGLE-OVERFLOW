@@ -1,0 +1,127 @@
+“HTML google and stack Overflow” 
+
+Exercise 1 : 
+
+An HTML document : is a file containing hypertext markup language. HTML 
+code is based on tags, or hidden keywords, which provide instructions for 
+formatting the document. A tag starts with an angle bracket and the 'less 
+than' sign: '<'. The tag ends with an angle bracket and the 'greater than' 
+sign '>'.
+
+ HTML different elements definitions link : 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a 
+
+<!DOCTYPE>  : The declaration is not an HTML tag. It is an "information" 
+to the browser about what document type to expect.
+
+<html> : element represents the root (top-level element) of an HTML 
+document, so it is also referred to as the root element. All other 
+elements must be descendants of this element.
+
+<head> : element contains machine-readable information (metadata) about 
+the document, like its title, scripts, and style sheets.
+
+<body> : element represents the content of an HTML document. There can be 
+only one <body> element in a document.
+
+Mistakes related to basic HTML structure: 
+To understand why headers must be sent before output it's necessary to 
+look at a typical HTTP response. PHP scripts mainly generate HTML content, 
+but also pass a set of HTTP/CGI headers to the webserver:
+https://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php/8028987#8028987
+
+
+Exercise 2 : 
+
+HTML elements : 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+
+<1> headings : elements represent six levels of section headings. <h1> is 
+the highest section level and <h6> is the lowest.
+
+<p> paragraph : element represents a paragraph. Paragraphs are usually 
+represented in visual media as blocks of text separated from adjacent 
+blocks by blank lines and/or first-line indentation.
+
+<links> : element specifies relationships between the current document and 
+an external resource. 
+
+Use semantic HTML : 
+https://stackoverflow.com/questions/74479435/correct-usage-of-html-semantic-elements
+
+
+Exercise 3 : 
+
+How to Create HTML Forms – Tutorial with Examples :
+https://www.shiksha.com/online-courses/articles/html-forms-tutorial-with-examples/
+
+
+form validation and challenges : 
+https://stackoverflow.com/questions/67588462/form-validation-issues-javascript
+
+
+Exercise 4 : 
+
+why semantic html web accessibility is important : 
+https://www.codecademy.com/resources/blog/semantic-html/#:~:text=Also%2C%20semantic%20HTML%20improves%20responsiveness,greatly%20benefits%20screen%20reader%20users.
+
+proper html accessibility: 
+https://stackoverflow.com/questions/462767/what-are-the-best-practices-for-making-a-website-accessibility-friendly
+
+
+
+Exercise 5 : 
+
+Creating and styling HTML tables and example : 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables
+
+<table>
+  <caption>
+    A summary of the UK's most famous punk bands
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Band</th>
+      <th scope="col">Year formed</th>
+      <th scope="col">No. of Albums</th>
+      <th scope="col">Most famous song</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Buzzcocks</th>
+      <td>1976</td>
+      <td>9</td>
+      <td>Ever fallen in love (with someone you shouldn't've)</td>
+    </tr>
+    <tr>
+      <th scope="row">The Clash</th>
+      <td>1976</td>
+      <td>6</td>
+      <td>London Calling</td>
+    </tr>
+
+    <!-- several other great bands -->
+
+    <tr>
+      <th scope="row">The Stranglers</th>
+      <td>1974</td>
+      <td>17</td>
+      <td>No More Heroes</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="2">Total albums</th>
+      <td colspan="2">77</td>
+    </tr>
+  </tfoot>
+</table>
+
+
+CSS techniques , visual design of HTML table :
+https://stackoverflow.com/questions/36937991/css-table-styling
+
+
+
+HTML-GOOGLE-OVERFLOW
